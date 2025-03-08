@@ -1,0 +1,48 @@
+One King to rule them all!
+
+You are now the most noble goat in Goatearth, every other goat wish to become your personal knight and fight for you if you order it.
+
+[b]FEATURES[/b]
+- KING GOAT: Other goats will follow you and obey you.
+
+[b]COMMANDS[/b]
+- [b][1]:[/b] All goats around you become your knight.
+- [b][2]:[/b] Order to your knights to start attacking.
+- [b][1]:[/b] Order to your knights to stop attacking.
+
+[b]GAMEPAD COMMANDS[/b]
+- [b][RB]:[/b] All goats around you become your knight.
+- [b][LB]:[/b] Order to your knights to start attacking.
+- [b][RB]:[/b] Order to your knights to stop attacking.
+
+[b]CHARACTERISTICS[/b]
+- Only non-player goats that are not already a knight can become your knight.
+- When your knights are not agressive or have no target they will follow you.
+- When your knights are agressive they will attack the closest NPC or player they can see.
+- Knights don't attack ragdolled bodies.
+
+[b]EASTER EGGS[/b]
+- [spoiler]Combine this mod with Goat Queen or Cloning Goat to make a really big goat army ;)[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- Knight goats sometimes walk on each other.
+
+[b]FAQ[/b]
+[i]Before starting any of the following steps [b]close Goat Simulator[/b][/i].
+
+- How do I use this mod?
+[i]First hit the [+ Subscribe] button on this page to download the mod. After doing that Steam should start downloading the mod (you can see the progress at the bottom of your Steam window), wait for the download to complete before starting your game. In the main menu of the game, select Custom Game, then you will see a list of all the mutators installed on your computer. Click on the mutators you want in this list to add them to your goat.[/i]
+
+- The mod is installed but does nothing when I use it, what should I do?
+[i]Unsubscribe to the mod, Steam will update the game wait for the end of this update before doing the next steps. Open the file "C:\ Program Files (x86) \Steam \SteamApps \common \GoatSimulator \GoatGame \Config \GoatMod.ini" (or "GoatMod") with notepad and delete its content. Read the preview instructions if you want to reinstall the mod.[/i]
+
+- My game is crashing at startup, what do I do?
+[i]Try to follow [url=http://steamcommunity.com/sharedfiles/filedetails/?id=247411111]this guide[/url] and see if it fixed your problem. If not, I don't think I can do anything more sorry.[/i]
+
+[b]DEV NOTES[/b]
+[quote=About this mod]This mod is the result of the proposition Cad'ika Orade made on my collection page. The idea was to be able to control an army of goats.
+So as some mods already exist to create more goats, I decided to make a mod that give other goats a special "knight AI" able to follow the player and attack random enemies.
+To make them follow I used a really simple method, every knight goat simply walk in the direction fo the player, and if there is an other knight in its trajectory it stop just after it.
+About the attack, I used the same method I used for the Zombie AI and customized it to avoid that knights attack their king or other knights of the same king.
+I also had to add an ugly fix to avoid knights to ragdoll all the time: the basic goat AI ragdoll them every time they collide with something, so I tried to prevent that.
+[/quote]
